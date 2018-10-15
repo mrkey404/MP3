@@ -1,0 +1,19 @@
+#!/bin/bash
+clear
+echo -e "
+ ____________
+<\033[31;1m MP3 PLAYER\033[37;1m >
+ ------------"
+echo -e "C.FB: Rizki Key"
+echo -e "C.MAIL: ngawiexploiter@hotmail.com"
+echo -e ""
+shopt -s autocd
+echo -e "contoh: \033[33;1m/sdcard/\033[37;1m"
+read -p "dir musik: " loss
+cd $loss
+echo -e "\033[33;1mshowing\033[37;1m..."
+sleep 5
+ls
+echo -e "contoh: \033[33;1mDownload\033[37;1m"
+read -p "play: " loss
+mpv $loss
