@@ -1,1 +1,2 @@
-# MP3
+MP3 PLAYER
+chmod +x *
